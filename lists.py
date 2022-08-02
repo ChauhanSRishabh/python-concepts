@@ -60,5 +60,5 @@ lst.clear() # list is cleared, all elements are removed but list named lst exist
 print(lst)
 
 # DELETE LIST ALTOGETHER
-del lst # list named lt is deleted, nothing exists
+del lst # list named lst is deleted, nothing exists
 print(lst)

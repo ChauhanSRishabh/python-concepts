@@ -2,7 +2,8 @@
 
 name = '''rishabh
 is awesome''' # this is a multi-line string using ''', that were used for multi line comments as well
-print(name[7]) # index 7 = 8th character, which is a new-line
+
+print(name[7]) # index 7 = 8th character, is a new-line and that will be printed
 
 name = 'rishabh' # could have used " " as well, does not matter
 

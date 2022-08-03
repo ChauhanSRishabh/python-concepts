@@ -39,4 +39,12 @@ for item in dict:
 print()
 
 # WHILE LOOP
-# DO WHILE LOOP
+
+i = 0;
+while(i<100):
+    i+=1
+    if(i==11):
+        continue # goes to the next iteration
+    if(i==23):
+        break # Loop gets broken
+    print(i)

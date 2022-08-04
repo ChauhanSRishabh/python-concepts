@@ -1,4 +1,4 @@
-# TYPES OF  VARIABLES
+# TYPES OF VARIABLES
 # Instance Variable - variable defined inside init method
 # Class(Static) Variable - outside init method
 
@@ -25,6 +25,7 @@ print(c1.company, c1.mileage, c1.wheels)
 print(c2.company, c2.mileage, c2.wheels)
 
 Car.wheels = 3 # wheels being a class variable belongs to class namespace. So in order to work with wheels, to modify it, we have to use class name.
+# We can access it with instance name as in Lines 24 and 25, but modification is with class name only
 
 print(c1.company, c1.mileage, c1.wheels)
 print(c2.company, c2.mileage, c2.wheels)

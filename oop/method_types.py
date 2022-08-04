@@ -18,9 +18,11 @@ class Student:
     def avg(self):
         return (self.m1 + self.m2 + self.m3)/3
     
+    # GETTER
     def get_marks1(self):
         return self.m1
     
+    # SETTER
     def set_marks1(self, value):
         self.m1 = value
 
@@ -36,8 +38,11 @@ class Student:
 s1 = Student(90, 91, 95)
 s2 = Student(54, 67, 89)
 
-print(s1.avg())
-print(s2.avg())
+print(s1.avg()) # 92
+print(s2.avg()) # 70
+
+s1.set_marks1(100)
+print(s1.get_marks1()) # 100
 
 '''
 INSTANCE METHOD
@@ -45,8 +50,8 @@ INSTANCE METHOD
 m1, m2, m3 are instance variables and can be used with instance methods. Here avg() is an Instance Method as it works with the instance variables of objects s1 and s2
 
 In Instance Methods, we have types:
-1. Accessor Methods - fetch the values -> GETTERS
-2. Mutator Methods - modify the values -> SETTERS
+1. Accessor Methods - fetch the values -> GETTERS, Line 22,23
+2. Mutator Methods - modify the values -> SETTERS, Line 26,27
 ''' 
 
 # IMPORTANT

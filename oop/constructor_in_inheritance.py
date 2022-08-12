@@ -97,7 +97,7 @@ In A init
 In C init
 '''
 
-# Why A's init was called and not B's when we wrote super().__init__() on Line 89?
+# Why A's init was called and not B's when we wrote super().__init__() on Line 88?
 
 # METHOD RESOLUTION ORDER(MRO)
 # Whenever we have multiple inheritance, it always starts from left to right. So the moment we wrote super().__init__(), it prefers left one.

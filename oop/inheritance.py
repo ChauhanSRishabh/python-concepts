@@ -57,8 +57,7 @@ class ONE:
         print("Feature 2 working")
 
 
-class TWO(): # we will write B(A)
-    # This means B is a Child Class/ Sub Class of A
+class TWO():
     def feature3(self):
         print("Feature 3 working")
 
